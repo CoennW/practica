@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F546E1D31CC0E1D400D48B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546E1D21CC0E1D400D48B80 /* AppDelegate.swift */; };
+		F546E1D51CC0E1D400D48B80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546E1D41CC0E1D400D48B80 /* ViewController.swift */; };
+		F546E1D81CC0E1D400D48B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F546E1D61CC0E1D400D48B80 /* Main.storyboard */; };
+		F546E1DB1CC0E1D400D48B80 /* What_s_Your_Secret_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F546E1D91CC0E1D400D48B80 /* What_s_Your_Secret_.xcdatamodeld */; };
+		F546E1DD1CC0E1D400D48B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F546E1DC1CC0E1D400D48B80 /* Assets.xcassets */; };
+		F546E1E01CC0E1D400D48B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F546E1DE1CC0E1D400D48B80 /* LaunchScreen.storyboard */; };
+		F546E1EB1CC0E1D400D48B80 /* What_s_Your_Secret_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546E1EA1CC0E1D400D48B80 /* What_s_Your_Secret_Tests.swift */; };
+		F546E1F61CC0E1D400D48B80 /* What_s_Your_Secret_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546E1F51CC0E1D400D48B80 /* What_s_Your_Secret_UITests.swift */; };
+		F546E2041CC3BB3F00D48B80 /* ProtectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546E2031CC3BB3F00D48B80 /* ProtectedViewController.swift */; };
+		F546E2061CC3C75C00D48B80 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546E2051CC3C75C00D48B80 /* RegisterPageViewController.swift */; };
+		F546E2081CC3D57100D48B80 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546E2071CC3D57100D48B80 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F546E1E71CC0E1D400D48B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F546E1C71CC0E1D400D48B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F546E1CE1CC0E1D400D48B80;
+			remoteInfo = "What's Your Secret?";
+		};
+		F546E1F21CC0E1D400D48B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F546E1C71CC0E1D400D48B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F546E1CE1CC0E1D400D48B80;
+			remoteInfo = "What's Your Secret?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F546E1CF1CC0E1D400D48B80 /* What's Your Secret?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What's Your Secret?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F546E1D21CC0E1D400D48B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F546E1D41CC0E1D400D48B80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F546E1D71CC0E1D400D48B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F546E1DA1CC0E1D400D48B80 /* What_s_Your_Secret_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = What_s_Your_Secret_.xcdatamodel; sourceTree = "<group>"; };
+		F546E1DC1CC0E1D400D48B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F546E1DF1CC0E1D400D48B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F546E1E11CC0E1D400D48B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F546E1E61CC0E1D400D48B80 /* What's Your Secret?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What's Your Secret?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F546E1EA1CC0E1D400D48B80 /* What_s_Your_Secret_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_s_Your_Secret_Tests.swift; sourceTree = "<group>"; };
+		F546E1EC1CC0E1D400D48B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F546E1F11CC0E1D400D48B80 /* What's Your Secret?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What's Your Secret?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F546E1F51CC0E1D400D48B80 /* What_s_Your_Secret_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_s_Your_Secret_UITests.swift; sourceTree = "<group>"; };
+		F546E1F71CC0E1D400D48B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F546E2031CC3BB3F00D48B80 /* ProtectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedViewController.swift; sourceTree = "<group>"; };
+		F546E2051CC3C75C00D48B80 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		F546E2071CC3D57100D48B80 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F546E1CC1CC0E1D400D48B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F546E1E31CC0E1D400D48B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F546E1EE1CC0E1D400D48B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F546E1C61CC0E1D400D48B80 = {
+			isa = PBXGroup;
+			children = (
+				F546E1D11CC0E1D400D48B80 /* What's Your Secret? */,
+				F546E1E91CC0E1D400D48B80 /* What's Your Secret?Tests */,
+				F546E1F41CC0E1D400D48B80 /* What's Your Secret?UITests */,
+				F546E1D01CC0E1D400D48B80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F546E1D01CC0E1D400D48B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F546E1CF1CC0E1D400D48B80 /* What's Your Secret?.app */,
+				F546E1E61CC0E1D400D48B80 /* What's Your Secret?Tests.xctest */,
+				F546E1F11CC0E1D400D48B80 /* What's Your Secret?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F546E1D11CC0E1D400D48B80 /* What's Your Secret? */ = {
+			isa = PBXGroup;
+			children = (
+				F546E1D21CC0E1D400D48B80 /* AppDelegate.swift */,
+				F546E1D41CC0E1D400D48B80 /* ViewController.swift */,
+				F546E2071CC3D57100D48B80 /* LoginViewController.swift */,
+				F546E1D61CC0E1D400D48B80 /* Main.storyboard */,
+				F546E2051CC3C75C00D48B80 /* RegisterPageViewController.swift */,
+				F546E2031CC3BB3F00D48B80 /* ProtectedViewController.swift */,
+				F546E1DC1CC0E1D400D48B80 /* Assets.xcassets */,
+				F546E1DE1CC0E1D400D48B80 /* LaunchScreen.storyboard */,
+				F546E1E11CC0E1D400D48B80 /* Info.plist */,
+				F546E1D91CC0E1D400D48B80 /* What_s_Your_Secret_.xcdatamodeld */,
+			);
+			path = "What's Your Secret?";
+			sourceTree = "<group>";
+		};
+		F546E1E91CC0E1D400D48B80 /* What's Your Secret?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F546E1EA1CC0E1D400D48B80 /* What_s_Your_Secret_Tests.swift */,
+				F546E1EC1CC0E1D400D48B80 /* Info.plist */,
+			);
+			path = "What's Your Secret?Tests";
+			sourceTree = "<group>";
+		};
+		F546E1F41CC0E1D400D48B80 /* What's Your Secret?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F546E1F51CC0E1D400D48B80 /* What_s_Your_Secret_UITests.swift */,
+				F546E1F71CC0E1D400D48B80 /* Info.plist */,
+			);
+			path = "What's Your Secret?UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F546E1CE1CC0E1D400D48B80 /* What's Your Secret? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F546E1FA1CC0E1D400D48B80 /* Build configuration list for PBXNativeTarget "What's Your Secret?" */;
+			buildPhases = (
+				F546E1CB1CC0E1D400D48B80 /* Sources */,
+				F546E1CC1CC0E1D400D48B80 /* Frameworks */,
+				F546E1CD1CC0E1D400D48B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What's Your Secret?";
+			productName = "What's Your Secret?";
+			productReference = F546E1CF1CC0E1D400D48B80 /* What's Your Secret?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F546E1E51CC0E1D400D48B80 /* What's Your Secret?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F546E1FD1CC0E1D400D48B80 /* Build configuration list for PBXNativeTarget "What's Your Secret?Tests" */;
+			buildPhases = (
+				F546E1E21CC0E1D400D48B80 /* Sources */,
+				F546E1E31CC0E1D400D48B80 /* Frameworks */,
+				F546E1E41CC0E1D400D48B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F546E1E81CC0E1D400D48B80 /* PBXTargetDependency */,
+			);
+			name = "What's Your Secret?Tests";
+			productName = "What's Your Secret?Tests";
+			productReference = F546E1E61CC0E1D400D48B80 /* What's Your Secret?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F546E1F01CC0E1D400D48B80 /* What's Your Secret?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F546E2001CC0E1D400D48B80 /* Build configuration list for PBXNativeTarget "What's Your Secret?UITests" */;
+			buildPhases = (
+				F546E1ED1CC0E1D400D48B80 /* Sources */,
+				F546E1EE1CC0E1D400D48B80 /* Frameworks */,
+				F546E1EF1CC0E1D400D48B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F546E1F31CC0E1D400D48B80 /* PBXTargetDependency */,
+			);
+			name = "What's Your Secret?UITests";
+			productName = "What's Your Secret?UITests";
+			productReference = F546E1F11CC0E1D400D48B80 /* What's Your Secret?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F546E1C71CC0E1D400D48B80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fontys;
+				TargetAttributes = {
+					F546E1CE1CC0E1D400D48B80 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F546E1E51CC0E1D400D48B80 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F546E1CE1CC0E1D400D48B80;
+					};
+					F546E1F01CC0E1D400D48B80 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F546E1CE1CC0E1D400D48B80;
+					};
+				};
+			};
+			buildConfigurationList = F546E1CA1CC0E1D400D48B80 /* Build configuration list for PBXProject "What's Your Secret?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F546E1C61CC0E1D400D48B80;
+			productRefGroup = F546E1D01CC0E1D400D48B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F546E1CE1CC0E1D400D48B80 /* What's Your Secret? */,
+				F546E1E51CC0E1D400D48B80 /* What's Your Secret?Tests */,
+				F546E1F01CC0E1D400D48B80 /* What's Your Secret?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F546E1CD1CC0E1D400D48B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F546E1E01CC0E1D400D48B80 /* LaunchScreen.storyboard in Resources */,
+				F546E1DD1CC0E1D400D48B80 /* Assets.xcassets in Resources */,
+				F546E1D81CC0E1D400D48B80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F546E1E41CC0E1D400D48B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F546E1EF1CC0E1D400D48B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F546E1CB1CC0E1D400D48B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F546E2081CC3D57100D48B80 /* LoginViewController.swift in Sources */,
+				F546E1DB1CC0E1D400D48B80 /* What_s_Your_Secret_.xcdatamodeld in Sources */,
+				F546E2041CC3BB3F00D48B80 /* ProtectedViewController.swift in Sources */,
+				F546E1D51CC0E1D400D48B80 /* ViewController.swift in Sources */,
+				F546E1D31CC0E1D400D48B80 /* AppDelegate.swift in Sources */,
+				F546E2061CC3C75C00D48B80 /* RegisterPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F546E1E21CC0E1D400D48B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F546E1EB1CC0E1D400D48B80 /* What_s_Your_Secret_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F546E1ED1CC0E1D400D48B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F546E1F61CC0E1D400D48B80 /* What_s_Your_Secret_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F546E1E81CC0E1D400D48B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F546E1CE1CC0E1D400D48B80 /* What's Your Secret? */;
+			targetProxy = F546E1E71CC0E1D400D48B80 /* PBXContainerItemProxy */;
+		};
+		F546E1F31CC0E1D400D48B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F546E1CE1CC0E1D400D48B80 /* What's Your Secret? */;
+			targetProxy = F546E1F21CC0E1D400D48B80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F546E1D61CC0E1D400D48B80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F546E1D71CC0E1D400D48B80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F546E1DE1CC0E1D400D48B80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F546E1DF1CC0E1D400D48B80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F546E1F81CC0E1D400D48B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F546E1F91CC0E1D400D48B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F546E1FB1CC0E1D400D48B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "What's Your Secret?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fontys.sm.What-s-Your-Secret-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F546E1FC1CC0E1D400D48B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "What's Your Secret?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fontys.sm.What-s-Your-Secret-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F546E1FE1CC0E1D400D48B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "What's Your Secret?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fontys.sm.What-s-Your-Secret-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What's Your Secret?.app/What's Your Secret?";
+			};
+			name = Debug;
+		};
+		F546E1FF1CC0E1D400D48B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "What's Your Secret?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fontys.sm.What-s-Your-Secret-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What's Your Secret?.app/What's Your Secret?";
+			};
+			name = Release;
+		};
+		F546E2011CC0E1D400D48B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "What's Your Secret?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fontys.sm.What-s-Your-Secret-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "What's Your Secret?";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F546E2021CC0E1D400D48B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "What's Your Secret?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fontys.sm.What-s-Your-Secret-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "What's Your Secret?";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F546E1CA1CC0E1D400D48B80 /* Build configuration list for PBXProject "What's Your Secret?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F546E1F81CC0E1D400D48B80 /* Debug */,
+				F546E1F91CC0E1D400D48B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F546E1FA1CC0E1D400D48B80 /* Build configuration list for PBXNativeTarget "What's Your Secret?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F546E1FB1CC0E1D400D48B80 /* Debug */,
+				F546E1FC1CC0E1D400D48B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F546E1FD1CC0E1D400D48B80 /* Build configuration list for PBXNativeTarget "What's Your Secret?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F546E1FE1CC0E1D400D48B80 /* Debug */,
+				F546E1FF1CC0E1D400D48B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F546E2001CC0E1D400D48B80 /* Build configuration list for PBXNativeTarget "What's Your Secret?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F546E2011CC0E1D400D48B80 /* Debug */,
+				F546E2021CC0E1D400D48B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F546E1D91CC0E1D400D48B80 /* What_s_Your_Secret_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F546E1DA1CC0E1D400D48B80 /* What_s_Your_Secret_.xcdatamodel */,
+			);
+			currentVersion = F546E1DA1CC0E1D400D48B80 /* What_s_Your_Secret_.xcdatamodel */;
+			path = What_s_Your_Secret_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F546E1C71CC0E1D400D48B80 /* Project object */;
+}
